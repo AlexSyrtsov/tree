@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsList component Match snapshot 1`] = `
+<Memo
+  tags={
+    Array [
+      Object {
+        "childrenIds": Array [
+          "0030d9c5-9f1b-431a-9080-03cc48dc117a",
+          "0030d9c5-9f1b-431a-9080-03cc48dc117z",
+        ],
+        "id": "0030d9c5-9f1b-431a-9080-03cc48dc117f",
+        "title": "Phones",
+      },
+      Object {
+        "id": "0030d9c5-9f1b-431a-9080-03cc48dc117d",
+        "title": "Laptops",
+      },
+      Object {
+        "id": "0030d9c5-9f1b-431a-9080-03cc48dc117z",
+        "parentId": "0030d9c5-9f1b-431a-9080-03cc48dc117f",
+        "title": "Desktop",
+      },
+      Object {
+        "id": "0030d9c5-9f1b-431a-9080-03cc48dc117a",
+        "parentId": "0030d9c5-9f1b-431a-9080-03cc48dc117f",
+        "title": "Watches",
+      },
+    ]
+  }
+/>
+`;

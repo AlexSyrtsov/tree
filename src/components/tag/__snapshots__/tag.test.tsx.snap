@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag component render correctly Match snapshot 1`] = `
+<Memo
+  tag={
+    Object {
+      "id": "0030d9c5-9f1b-431a-9080-03cc48dc117f",
+      "title": "Phones",
+    }
+  }
+/>
+`;

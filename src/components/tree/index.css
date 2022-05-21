@@ -1,0 +1,16 @@
+.tree {
+  display: grid;
+  align-content: start;
+  max-height: calc(100vh - 20px);
+  overflow: hidden;
+  width: 350px;
+  margin: 10px;
+}
+
+.tree__wrapper {
+  overflow: scroll;
+}
+
+.tree__title {
+  margin: 10px 0 10px 0;
+}

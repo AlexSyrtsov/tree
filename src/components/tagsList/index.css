@@ -1,0 +1,13 @@
+.tree-tags {
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+}
+
+.tree-tags__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: scroll;
+}

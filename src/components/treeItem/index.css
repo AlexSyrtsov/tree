@@ -1,0 +1,73 @@
+.tree-item__wrapper {
+  position: relative;
+}
+
+.tree-item__name-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.tree-item__name-wrapper_without-icon {
+  margin-left: 15px;
+}
+
+.tree-item__collapse-icon {
+  width: 15px;
+  cursor: pointer;
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.tree-item__collapse-icon_up {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.tree-item__checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tree-item__checkbox {
+  margin: 3px;
+}
+
+.tree-item__label-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tree-item__label-subtitle {
+  font-size: 12px;
+}
+
+.tree-item__children-wrapper {
+  margin-left: 17px;
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.tree-item__children-enter {
+  opacity: 0;
+}
+.tree-item__children-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out 200ms;
+}
+.tree-item__children-exit {
+  opacity: 1;
+}
+.tree-item__children-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out 200ms;
+}
